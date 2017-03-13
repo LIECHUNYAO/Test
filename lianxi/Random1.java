@@ -11,7 +11,6 @@ public class Random1 {
                    System.out.println("Random(2) 随机数"+(i+1)+"   : "+r1.nextInt());
 
                    System.out.println("Random() 随机数"+r2.nextInt()+"\n");
-                   System.out.println("Random() 随机数"+r2.nextInt()+"\n");
 
           }
 	}
