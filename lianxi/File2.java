@@ -8,7 +8,7 @@ public class File2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String content[] = {"我是帅哥吗","你说呢baby","ofcourse！you are！"};
-		File cool = new File("/Users/billyao/Desktop","test.txt");
+		File cool = new File("/Users/billyao/Desktop","test.txt");   //"C:\\demo1.txt" windows
 		try {
 			FileWriter fw = new FileWriter(cool);
 			BufferedWriter bufw = new BufferedWriter(fw);
